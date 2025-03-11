@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d9fb5bb-0341-4d1f-895e-5c1e572b42ad" name="Changes" comment="Reinitialized the repository with first project solution calculator.kt">
-      <change afterPath="$PROJECT_DIR$/src/beginner/temperatureConverter.kt" afterDir="false" />
+    <list default="true" id="1d9fb5bb-0341-4d1f-895e-5c1e572b42ad" name="Changes" comment="Implemented the second task temperature converter on temperatureConverter.kt check it out">
+      <change afterPath="$PROJECT_DIR$/src/beginner/evenOdd.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.CalculatorKt.executor": "Run",
+    "Kotlin.EvenOddKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.TemperatureConverterKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,7 +86,8 @@
       <updated>1739759589497</updated>
       <workItem from="1739759590582" duration="541000" />
       <workItem from="1741475489208" duration="2162000" />
-      <workItem from="1741593245033" duration="6070000" />
+      <workItem from="1741593245033" duration="6187000" />
+      <workItem from="1741711629278" duration="2640000" />
     </task>
     <task id="LOCAL-00001" summary="Reinitialized the repository with first project solution calculator.kt">
       <option name="closed" value="true" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741476394446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented the second task temperature converter on temperatureConverter.kt check it out">
+      <option name="closed" value="true" />
+      <created>1741600447779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741600447780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reinitialized the repository with first project solution calculator.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reinitialized the repository with first project solution calculator.kt" />
+    <MESSAGE value="Implemented the second task temperature converter on temperatureConverter.kt check it out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the second task temperature converter on temperatureConverter.kt check it out" />
   </component>
 </project>
