@@ -1,10 +1,22 @@
-import kotlin.math.pow
-
-fun Int.cubed(): Int {
-    // Implement logic here
-    return this.toFloat().pow(3).toInt() // not clean and concise may bring some ambiguity my main motivation was to use the inbuilt power method
-}
-
 fun main(){
-    println(5.cubed())
+    val shoppingCart = mutableMapOf("Banana" to 10, "Apple" to 75, "Mango" to 45, "Orange" to 25)
+
+    println("=================================================================")
+    println("Filtered map of fruits whose prices are greater than 50.")
+    println("=================================================================")
+    // get items with values <= 18 only
+    val filtered = shoppingCart.filter { (_, value) -> value > 50 }
+    println(filtered)
+
+
+    for ((key, value) in shoppingCart) {
+        println("$key = $value")
+    }
+
+    val map = mutableMapOf(1 to "A", 2 to "B")
+    map[3] = "C"
+
+    val sorted = shoppingCart.toList().sortedBy { (_, value) -> value }.toMap()
+    println(sorted)
+
 }
