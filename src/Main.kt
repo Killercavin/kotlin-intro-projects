@@ -13,7 +13,7 @@ fun passwordChecker(password: String?) {
     println("Your password is: $myPassword")
 }
 
-fun main() {
+fun beginner.main() {
     val pass = readLine()
     passwordChecker(pass)
 }*/
