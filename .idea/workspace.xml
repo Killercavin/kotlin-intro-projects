@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d9fb5bb-0341-4d1f-895e-5c1e572b42ad" name="Changes" comment="Update Playground.kt">
-      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/Account.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intermediate/StudentGradeTracker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/DataType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/FizzBuzz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/conditionalStatements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hackerrank/operators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Playground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Killercavin/kotlin-intro-projects.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:Killercavin/kotlin-intro-projects.git&quot;,
     &quot;accountId&quot;: &quot;edc02e47-d19a-400c-ada5-434574fb6de6&quot;
   }
 }</component>
@@ -54,44 +55,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.BankccountSimulationKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CalculatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.EvenOddKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ExtendedTodoKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.GradeEvaluatorKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PlaygroundKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.StudentGradeTrackerKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.TemperatureConverterKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.TodoListKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;bank-simulator&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cavin/IdeaProjects/kotlin-intro-projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/cavin/IdeaProjects/kotlin-intro-projects/src/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.AccountKt.executor": "Run",
+    "Kotlin.BankccountSimulationKt.executor": "Run",
+    "Kotlin.CalculatorKt.executor": "Run",
+    "Kotlin.ConditionalStatementsKt.executor": "Run",
+    "Kotlin.DataTypeKt.executor": "Run",
+    "Kotlin.EvenOddKt.executor": "Run",
+    "Kotlin.ExtendedTodoKt.executor": "Run",
+    "Kotlin.FizzBuzzKt.executor": "Run",
+    "Kotlin.GradeEvaluatorKt.executor": "Run",
+    "Kotlin.HelloKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Run",
+    "Kotlin.PlaygroundKt.executor": "Run",
+    "Kotlin.StudentGradeTrackerKt.executor": "Run",
+    "Kotlin.TemperatureConverterKt.executor": "Run",
+    "Kotlin.TodoListKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/cavin/IdeaProjects/kotlin-intro-projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/cavin/IdeaProjects/kotlin-intro-projects/src/Main.kt",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.AccountKt">
+}]]></component>
+  <component name="RunManager">
     <configuration name="AccountKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.AccountKt" />
       <module name="kotlin-intro-projects" />
@@ -124,8 +131,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -165,6 +172,9 @@
       <workItem from="1743042647750" duration="42000" />
       <workItem from="1743042756507" duration="831000" />
       <workItem from="1743091186668" duration="472000" />
+      <workItem from="1744273139680" duration="8222000" />
+      <workItem from="1744317435276" duration="7908000" />
+      <workItem from="1744441095738" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="Reinitialized the repository with first project solution calculator.kt">
       <option name="closed" value="true" />
