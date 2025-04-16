@@ -13,7 +13,7 @@ fun passwordChecker(password: String?) {
     println("Your password is: $myPassword")
 }
 
-fun beginner.main() {
+fun beginner.hackerrank.main() {
     val pass = readLine()
     passwordChecker(pass)
 }*/
