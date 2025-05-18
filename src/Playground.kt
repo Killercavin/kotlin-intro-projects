@@ -1,12 +1,20 @@
-import kotlin.random.Random
-
-fun generateTemperature(seed: Int): String{
-    // write your code here
-    val random = Random(seed)
-    return (1..7).map { random.nextInt(20, 30) }.joinToString(" ")
+fun fizzbuzz(from: Int, to: Int, transformation: (Int) -> String) {
+    for (number in from..to) {
+        println(transformation(number))
+    }
 }
 
-
 fun main() {
-    print(generateTemperature(1))
+    fizzbuzz(1, 100) { number ->
+        if (number % 15 == 0) {
+            return@fizzbuzz "fizzbuzz"
+        }
+        if (number % 3 == 0) {
+            return@fizzbuzz "fizz"
+        }
+        if (number % 5 == 0) {
+            return@fizzbuzz "buzz"
+        }
+        return@fizzbuzz number.toString()
+    }
 }
