@@ -18,6 +18,6 @@ fun main() {
             )
         }
     } catch (e: NumberFormatException) {
-        println("Invalid input. Please enter a number.")
+        println("${e.message}\nInvalid input. Please enter a number.")
     }
 }

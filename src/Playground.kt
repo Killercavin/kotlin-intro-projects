@@ -1,20 +1,28 @@
-fun fizzbuzz(from: Int, to: Int, transformation: (Int) -> String) {
-    for (number in from..to) {
-        println(transformation(number))
+fun calculator(a: Int, b: Int, operators: Char) {
+    when (operators) {
+        '+' -> println(a + b)
+        '-' -> println(a - b)
+        '*' -> println(a * b)
+        '/' -> try {
+            println(a / b)
+        } catch (e: ArithmeticException) {
+            println(e.message)
+        }
+
+        '%' -> println(a % b)
+        else -> throw IllegalArgumentException("Invalid operator")
     }
 }
 
 fun main() {
-    fizzbuzz(1, 100) { number ->
-        if (number % 15 == 0) {
-            return@fizzbuzz "fizzbuzz"
-        }
-        if (number % 3 == 0) {
-            return@fizzbuzz "fizz"
-        }
-        if (number % 5 == 0) {
-            return@fizzbuzz "buzz"
-        }
-        return@fizzbuzz number.toString()
-    }
+    print("Enter the first number: ")
+    val firstNumber = readln().toInt()
+
+    print("Enter the second number: ")
+    val secondNumber = readln().toInt()
+
+    print("Enter a operator ie (+, -, /, *, %...): ")
+    val operator = readln().first()
+
+    calculator(firstNumber, secondNumber, operator)
 }

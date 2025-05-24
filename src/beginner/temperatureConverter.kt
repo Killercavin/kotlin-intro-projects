@@ -3,7 +3,8 @@ package beginner
 fun convertTemperature(value: Double, fromScale: String, toScale: String): Double {
     val validScales = setOf("celsius", "fahrenheit", "kelvin")
 
-    if (fromScale !in validScales || toScale !in validScales) {
+    // verify that all the scales are present in validScales
+    if (fromScale !in validScales && toScale !in validScales) {
         throw IllegalArgumentException("Invalid scale! Use: Celsius, Fahrenheit, or Kelvin.")
     }
 

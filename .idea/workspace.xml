@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d9fb5bb-0341-4d1f-895e-5c1e572b42ad" name="Changes" comment="Update Playground.kt">
+    <list default="true" id="1d9fb5bb-0341-4d1f-895e-5c1e572b42ad" name="Changes" comment="Lambdas in Kotlin hell">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Playground.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Playground.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beginner/GradeEvaluator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/beginner/GradeEvaluator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beginner/temperatureConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/beginner/temperatureConverter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +164,10 @@
       <workItem from="1746990426557" duration="3126000" />
       <workItem from="1747126645019" duration="19021000" />
       <workItem from="1747495857994" duration="4061000" />
-      <workItem from="1747550406738" duration="4766000" />
+      <workItem from="1747550406738" duration="7098000" />
+      <workItem from="1747603171623" duration="4724000" />
+      <workItem from="1747678929784" duration="5587000" />
+      <workItem from="1747805991669" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="Reinitialized the repository with first project solution calculator.kt">
       <option name="closed" value="true" />
@@ -212,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743032705849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lambdas in Kotlin hell">
+      <option name="closed" value="true" />
+      <created>1747555392124</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747555392124</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +236,7 @@
     <MESSAGE value="Implemented the second task temperature converter on temperatureConverter.kt check it out" />
     <MESSAGE value="Implemented several tasks" />
     <MESSAGE value="Update Playground.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Playground.kt" />
+    <MESSAGE value="Lambdas in Kotlin hell" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambdas in Kotlin hell" />
   </component>
 </project>
