@@ -1,7 +1,5 @@
 package practice_questions.functions.easy
 
-import java.io.IO.readln
-
 /*
 Unit Function: Write a function printNumbers that takes an integer and prints numbers from 1 to that integer.
  */
@@ -17,5 +15,7 @@ fun printNumbers(number: Int) {
 }
 
 fun main() {
-    printNumbers(readln("Enter the number: ").toInt())
+    print("Enter the number: ")
+    val number = readln().toInt()
+    printNumbers(number)
 }

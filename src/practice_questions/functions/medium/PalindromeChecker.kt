@@ -1,7 +1,5 @@
 package practice_questions.functions.medium
 
-import java.io.IO.readln
-
 /*
 Extension Functions: Create an extension function for String called isPalindrome that checks if a string reads the same forwards and backwards.
  */
@@ -11,7 +9,8 @@ fun String.isPalindrome(): Boolean {
 }
 
 fun main() {
-    val checker = readln("Enter the string to check: ").isPalindrome()
+    print("Enter the string to check: ")
+    val checker = readln().isPalindrome()
     if (checker) {
         println("The string is a palindrome")
     } else {

@@ -1,6 +1,6 @@
 package hackerrank
 
-class Person(private var age: Int) {
+open class Person(private var age: String, lastName: String, id: Int, scores: Array<Int>) {
 
     init {
         if (age < 0) {
@@ -26,7 +26,7 @@ fun main() {
     val t = readln().toInt()
     repeat(t) {
         val age = readln().toInt()
-        val person = Person(age)
+        val person = Person(age, lastName, id, scores)
         person.amIOld()
         repeat(3) {
             person.yearPasses()

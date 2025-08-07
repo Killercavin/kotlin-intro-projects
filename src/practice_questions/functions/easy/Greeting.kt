@@ -1,7 +1,5 @@
 package practice_questions.functions.easy
 
-import java.io.IO.readln
-
 /*
 Function Basics: Write a function called greet that takes a name as a parameter and returns "Hello, [name]!"
  */
@@ -9,5 +7,7 @@ Function Basics: Write a function called greet that takes a name as a parameter 
 fun greeting(name: String): String = "Hello, $name!"
 
 fun main() {
-    println(greeting(readln("Enter your name: ")))
+    print("Enter your name: ")
+    val name = readln()
+    println(greeting(name))
 }
